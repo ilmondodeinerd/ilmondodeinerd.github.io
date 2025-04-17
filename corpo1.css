@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 200%;
+}
+img{
+    height:900px;
+
+}
+.imga{
+bottom: 250px;
+position: relative;
+text-align: center;
+}
+.login{
+    border: solid 3px;
+    position: relative;
+    height: 400x;
+    margin-left:700px;
+    margin-right:780px;
+    text-align: center;
+    padding: 70px;
+    background: #ffffff;
+    --main-color: #000000;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  bottom: 1150px;
+}
+.imga1{
+    bottom: 800px;
+    position: relative;
+    text-align: center;
+}
+.pulsante{
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: #000;
+    transition: 0.2s;
+    margin-right: 56px;
+    margin-left: 56px;
+    font-family: CCComicrazy Roman;
+
+  }
+  
+.pulsante:hover {
+    color: #000000;
+    transform: translate(-0.25rem, -0.25rem);
+    background: #ffffff;
+    box-shadow: 0.25rem 0.25rem #000;
+  }
+  
+  .pulsante:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+input{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid ;
+    background-color: #ffffff ;
+    box-shadow: 4px 4px  #000000;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--font-color);
+    padding: 5px 10px;
+    outline: none;
+    margin-right: 8px;
+    margin-top: 40px;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  height: 60px;
+ text-align: center;
+ font-size: 16px;
+}
+.riservatezza{
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    text-align: center;
+}
+.pay{
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 23px;
+  }
