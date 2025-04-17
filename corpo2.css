@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 200%;
+}
+img{
+    height:600px;
+
+}
+.imga{
+bottom: 200px;
+position: relative;
+text-align: center;
+}
+img{
+   margin-left: 200px;
+   
+}
+#verticale{
+    width: 10px;
+    height: 400px;
+    background-color: black;
+   margin-left: 650px;
+ bottom: -150px;
+ position: absolute;
+}
+.titolo{
+   margin-left:700px;
+ bottom: -100px;
+ position: absolute;
+ font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 250px;
+
+}
+.comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-left:500px;
+    bottom: -100px;
+    position: absolute;
+   
+  }
+  
+  .comic-button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+  }
+  
+  .comic-button:active {
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+   }
+   .prezzo{
+    margin-left:1460px;
+    bottom: -250px;
+    position: absolute;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100px;
+
+   }
+   .riservatezza{
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      text-align: center;
+      margin-top: 1000px;
+  }
